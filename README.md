@@ -56,16 +56,13 @@ An easy-to-use web application for creating, managing, and tracking invoices.
    ```
 
 ## 📸 Screenshots
-> _Add some screenshots of your app here after setup!_
 
 Example:
 
-![Dashboard Screenshot](path/to/dashboard-screenshot.png)
 
-## 📄 License
-This project is licensed for educational purposes.
 
-## 👌 Acknowledgements
-Thanks to everyone who contributed to open-source libraries used in this project.
+![Screenshot 2025-04-26 204741](https://github.com/user-attachments/assets/af6d710a-6020-4e1a-ae0d-b6e1bc83e869)
+
+
 
 
