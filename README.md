@@ -44,7 +44,7 @@ An easy-to-use web application for creating, managing, and tracking invoices.
 1. Open a new terminal window/tab.
 2. Navigate to the frontend folder:
    ```
-   cd invoice-system-frontend
+   cd invoice-system-frontends
    ```
 3. Install frontend dependencies:
    ```
