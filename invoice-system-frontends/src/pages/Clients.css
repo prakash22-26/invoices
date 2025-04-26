@@ -1,0 +1,95 @@
+/* Clients.css */
+
+/* Header for the Clients page */
+.clients-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .clients-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .clients-new-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clients-new-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the clients table */
+  .clients-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clients-table-header {
+    background-color: #f4f4f4;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .clients-table-header th {
+    padding: 1rem;
+  }
+  
+  .clients-table-row {
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .clients-table-row td {
+    padding: 1rem;
+    color: #555;
+  }
+  
+  .clients-table-row td:first-child {
+    font-weight: 600;
+  }
+  
+  .clients-table-row:hover {
+    background-color: #fafafa;
+  }
+  
+  .clients-table-row:nth-child(even):hover {
+    background-color: #f7f7f7;
+  }
+  
+  /* Styling for the Delete button */
+  .clients-delete-btn {
+    font-weight: 600;
+    color: #d32f2f;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+  }
+  
+  .clients-delete-btn:hover {
+    color: #9c2a2a;
+  }
+  
+  /* Responsive Design: Make the table scrollable on smaller screens */
+  @media (max-width: 768px) {
+    .clients-table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+  

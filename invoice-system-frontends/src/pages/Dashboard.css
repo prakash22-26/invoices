@@ -1,0 +1,99 @@
+/* Dashboard.css */
+
+/* Container for the entire Dashboard */
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Grid for stat cards */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Styling for individual stat cards */
+  .stat-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Loading message */
+  .loading-message {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Styling for the recent invoices table */
+  .recent-invoices {
+    margin-top: 2rem;
+  }
+  
+  .recent-invoices-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .invoice-table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #f9fafb;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: #333;
+    text-align: left;
+  }
+  
+  .table-row {
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .table-cell {
+    padding: 1rem;
+    text-align: left;
+    color: #555;
+  }
+  
+  .table-cell:first-child {
+    font-weight: 600;
+  }
+  
+  /* Hover effects for rows */
+  .table-row:hover {
+    background-color: #f9fafb;
+  }
+  
+  .table-row:nth-child(even):hover {
+    background-color: #f3f4f6;
+  }
+  

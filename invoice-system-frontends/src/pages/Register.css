@@ -1,0 +1,101 @@
+/* Register.css */
+
+/* Container for centering form */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6ee7b7, #9333ea);
+    padding: 1rem;
+  }
+  
+  /* Styling for the form */
+  .register-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    animation: fade-in 0.5s ease-out;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Title */
+  .form-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input fields styling */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    background-color: #f9fafb;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #10b981;
+    outline: none;
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    width: 100%;
+    background-color: #10b981;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #059669;
+    transform: scale(1.05);
+  }
+  
+  /* Link styling */
+  .login-link {
+    font-size: 0.875rem;
+    color: #555;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .login-link-text {
+    color: #1d4ed8;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .login-link-text:hover {
+    text-decoration: underline;
+  }
+  

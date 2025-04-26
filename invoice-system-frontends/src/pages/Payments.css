@@ -1,0 +1,131 @@
+/* Payments.css */
+
+/* Title for Payments */
+.payments-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .payments-form {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .form-input,
+  .form-select {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    width: 16rem;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus,
+  .form-select:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .payments-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+  
+  .details-item {
+    flex: 1;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
+  
+  .btn-add-payment {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-add-payment:hover {
+    background-color: #45a049;
+  }
+  
+  /* Payment History Table */
+  .payment-history-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-header {
+    background-color: #f4f4f4;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .table-header th {
+    padding: 1rem;
+  }
+  
+  .table-row {
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .table-row td {
+    padding: 1rem;
+    color: #555;
+  }
+  
+  .table-row:hover {
+    background-color: #fafafa;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .payments-details {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .details-item {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+  
+    .form-input,
+    .form-select {
+      width: 100%;
+    }
+  
+    .btn-add-payment {
+      width: 100%;
+    }
+  }
+  

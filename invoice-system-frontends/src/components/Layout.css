@@ -1,0 +1,86 @@
+/* Layout.css */
+
+.layout-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color:rgb(5, 191, 212); 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .sidebar-top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .add-client {
+    background-color: #3b82f6; /* blue */
+    color: white;
+  }
+  
+  .add-client:hover {
+    background-color: #2563eb; /* darker blue */
+  }
+  
+  .add-invoice {
+    background-color: #10b981; /* green */
+    color: white;
+  }
+  
+  .add-invoice:hover {
+    background-color: #059669;
+  }
+  
+  .logout {
+    background-color: #ef4444; /* red */
+    color: white;
+  }
+  
+  .logout:hover {
+    background-color: #dc2626;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #374151; /* lighter gray */
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #f9fafb; /* very light gray */
+    overflow-y: auto;
+  }
+  
