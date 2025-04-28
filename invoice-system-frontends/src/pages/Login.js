@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import "./Login.css"; // 👈 Import the external CSS
 
 const Login = () => {
@@ -54,9 +55,9 @@ const Login = () => {
 
           <p className="register-link">
             Don’t have an account?{" "}
-            <a href="/register" className="register-link-text">
+            <Link to="/register" className="register-link-text">
               Register
-            </a>
+            </Link>
           </p>
         </form>
       </div>
