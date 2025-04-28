@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { useNavigate, Link } from "react-router-dom";
 import "./Register.css"; // 👈 Import the external CSS
 
 const Register = () => {
@@ -72,9 +73,9 @@ const Register = () => {
 
         <p className="login-link">
           Already have an account?{" "}
-          <a href="/" className="login-link-text">
+          <Link to="/" className="login-link-text">
             Login here
-          </a>
+          </Link>
         </p>
       </form>
     </div>
