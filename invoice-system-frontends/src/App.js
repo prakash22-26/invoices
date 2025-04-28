@@ -75,9 +75,7 @@ function App() {
         <Route
           path="/register"
           element={
-            <PrivateRoute>
               <Register />
-            </PrivateRoute>
           }
         />
         {/* Add routes for invoices, clients, payments */}
